@@ -44,7 +44,6 @@ class PlanetViewModel @Inject constructor(
             PlanetUiEvent.Search -> loadPlanets()
         }
     }
-
     private fun loadPlanets() {
         viewModelScope.launch {
             _state.update { it.copy(isLoading = true) }

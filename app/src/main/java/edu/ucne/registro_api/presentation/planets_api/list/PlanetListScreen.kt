@@ -33,7 +33,6 @@ fun PlanetListScreen(
         onPlanetClick = onPlanetClick
     )
 }
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun PlanetListBody(

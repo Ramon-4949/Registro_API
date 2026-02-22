@@ -16,7 +16,6 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import coil.compose.AsyncImage
 import edu.ucne.registro_api.domain.planets_api.model.Planet
-
 @Composable
 fun PlanetDetailScreen(
     viewModel: PlanetDetailViewModel = hiltViewModel(),

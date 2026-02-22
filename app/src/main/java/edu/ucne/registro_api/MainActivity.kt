@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import dagger.hilt.android.AndroidEntryPoint
 import edu.ucne.registro_api.presentation.navigation.PlanetNavHost
 import edu.ucne.registro_api.ui.theme.Registro_APITheme
-
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
